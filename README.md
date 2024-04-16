@@ -52,7 +52,7 @@ issues
 <span>: This section display the list of all followers 
 </span>
 
-<i><h2>6) Following</h2></i>
+<i><h2>7) Following</h2></i>
 <span>: This section display the list of all following members
 </span>
 
