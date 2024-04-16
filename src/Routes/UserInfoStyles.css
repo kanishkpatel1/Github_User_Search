@@ -1,0 +1,97 @@
+/* UserInfoStyles.css */
+/* *{
+  background-color: rgb(187, 130, 55);
+} */
+.container {
+    background-color: black;
+    min-height: 100vh;
+    color: #ccc;
+  }
+  
+  .py-5 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .button-back {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    background-color: #008080;
+    border: none;
+    border-radius: 0.25rem;
+    color: #ccc;
+  }
+  
+  .user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user-info-container img {
+    width: 350px;
+    border: 4px solid #008080;
+  }
+  
+  .user-info-container .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+  
+  .user-info-container .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .user-info-container .text-teal-400 {
+    color: #008080;
+  }
+  
+  .user-info-container .text-gray-200 {
+    color: #ccc;
+  }
+  
+  .tabs-container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-top: 10%;
+  }
+  
+  .tab-button {
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 1rem;
+    color: #ccc;
+  }
+  
+  .tab-button.active {
+    color: #008080;
+    font-weight: 600;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .repo-item {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #ccc;
+  }
+  
+  .repo-item a {
+    color: #008080;
+    text-decoration: none;
+  }
+  
+  .repo-item a:hover {
+    text-decoration: underline;
+  }
+  
